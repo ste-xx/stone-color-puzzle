@@ -1,4 +1,5 @@
 var indexToColor = {
+    0: "transparent",
     1: "darkgreen",
     2: "orange",
     3: "yellow",
