@@ -1,0 +1,156 @@
+<html>
+
+<head>
+    <script src="definition.js"></script>    
+    <script src="index.js"></script>
+    <style>
+        .grid {
+            display: grid;
+            grid-template-columns: 100px 100px 100px 100px;
+            grid-gap: 10px;
+            background-color: #fff;
+            color: #444;
+        }
+
+        .stone {
+            background-color: #e0b78e;
+            border-radius: 5px;
+            padding: 12px;
+            font-size: 150%;
+            display: grid;
+            grid-template-columns: 25px 25px 25px;
+        }
+
+        .top {
+            grid-column: 2;
+            grid-row: 1;
+        }
+
+
+        .left {
+            grid-column: 1;
+            grid-row: 2;
+        }
+
+
+        .right {
+            grid-column: 3;
+            grid-row: 2;
+        }
+
+
+        .bottom {
+            grid-column: 2;
+            grid-row: 3;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grid">
+        <div class="stone">
+            <div class="top">&nbsp;</div>
+            <div class="left">&nbsp;</div>
+            <div class="right">&nbsp;</div>
+            <div class="bottom">&nbsp;</div>
+        </div>
+        <div class="stone">
+            <div class="top">&nbsp;</div>
+            <div class="left">&nbsp;</div>
+            <div class="right">&nbsp;</div>
+            <div class="bottom">&nbsp;</div>
+        </div>
+        <div class="stone">
+            <div class="top">&nbsp;</div>
+            <div class="left">&nbsp;</div>
+            <div class="right">&nbsp;</div>
+            <div class="bottom">&nbsp;</div>
+        </div>
+        <div class="stone">
+            <div class="top">&nbsp;</div>
+            <div class="left">&nbsp;</div>
+            <div class="right">&nbsp;</div>
+            <div class="bottom">&nbsp;</div>
+        </div>
+        <div class="stone">
+            <div class="top">&nbsp;</div>
+            <div class="left">&nbsp;</div>
+            <div class="right">&nbsp;</div>
+            <div class="bottom">&nbsp;</div>
+        </div>
+        <div class="stone">
+            <div class="top">&nbsp;</div>
+            <div class="left">&nbsp;</div>
+            <div class="right">&nbsp;</div>
+            <div class="bottom">&nbsp;</div>
+        </div>
+        <div class="stone">
+            <div class="top">&nbsp;</div>
+            <div class="left">&nbsp;</div>
+            <div class="right">&nbsp;</div>
+            <div class="bottom">&nbsp;</div>
+        </div>
+        <div class="stone">
+            <div class="top">&nbsp;</div>
+            <div class="left">&nbsp;</div>
+            <div class="right">&nbsp;</div>
+            <div class="bottom">&nbsp;</div>
+        </div>
+        <div class="stone">
+            <div class="top">&nbsp;</div>
+            <div class="left">&nbsp;</div>
+            <div class="right">&nbsp;</div>
+            <div class="bottom">&nbsp;</div>
+        </div>
+        <div class="stone">
+            <div class="top">&nbsp;</div>
+            <div class="left">&nbsp;</div>
+            <div class="right">&nbsp;</div>
+            <div class="bottom">&nbsp;</div>
+        </div>
+        <div class="stone">
+            <div class="top">&nbsp;</div>
+            <div class="left">&nbsp;</div>
+            <div class="right">&nbsp;</div>
+            <div class="bottom">&nbsp;</div>
+        </div>
+        <div class="stone">
+            <div class="top">&nbsp;</div>
+            <div class="left">&nbsp;</div>
+            <div class="right">&nbsp;</div>
+            <div class="bottom">&nbsp;</div>
+        </div>
+        <div class="stone">
+            <div class="top">&nbsp;</div>
+            <div class="left">&nbsp;</div>
+            <div class="right">&nbsp;</div>
+            <div class="bottom">&nbsp;</div>
+        </div>
+        <div class="stone">
+            <div class="top">&nbsp;</div>
+            <div class="left">&nbsp;</div>
+            <div class="right">&nbsp;</div>
+            <div class="bottom">&nbsp;</div>
+        </div>
+        <div class="stone">
+            <div class="top">&nbsp;</div>
+            <div class="left">&nbsp;</div>
+            <div class="right">&nbsp;</div>
+            <div class="bottom">&nbsp;</div>
+        </div>
+        <div class="stone">
+            <div class="top">&nbsp;</div>
+            <div class="left">&nbsp;</div>
+            <div class="right">&nbsp;</div>
+            <div class="bottom">&nbsp;</div>
+        </div>
+    </div>
+
+    <button id="onlycolor">Init with color only</button>
+    <button id="withIdx">Init with index</button>
+    
+    <button id="validate">Validate</button>    
+    <button id="solve">SOLVE</button>
+</body>
+
+</html>
